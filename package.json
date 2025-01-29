@@ -1,0 +1,71 @@
+{
+  "name": "iata-tz",
+  "version": "1.0.2",
+  "description": "A robust Node.js module for converting times between airport timezones using IATA codes. Features include UTC to local time conversion, local to UTC conversion, timezone offset calculations, and direct conversions between different airport timezones. Built with moment-timezone for accurate daylight saving time handling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint .",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "iata",
+    "timezone",
+    "airport",
+    "utc",
+    "converter",
+    "time-conversion",
+    "airport-codes",
+    "local-time",
+    "moment-timezone",
+    "time",
+    "timezone-converter",
+    "dst",
+    "daylight-savings",
+    "flight-time",
+    "aviation",
+    "airport-timezone",
+    "time-zones",
+    "timezone-lookup",
+    "airport-time",
+    "iata-converter",
+    "utc-conversion",
+    "local-time-converter",
+    "timezone-utilities",
+    "airport-database",
+    "time-zone-conversion"
+  ],
+  "author": {
+    "name": "Ujjwal Sinha",
+    "url": "https://github.com/iamujjwalsinha"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "moment-timezone": "^0.5.46"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamujjwalsinha/iata-tz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iamujjwalsinha/iata-tz/issues"
+  },
+  "homepage": "https://github.com/iamujjwalsinha/iata-tz#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "src",
+    "LICENSE",
+    "README.md"
+  ]
+}
